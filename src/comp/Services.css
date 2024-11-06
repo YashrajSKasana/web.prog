@@ -1,0 +1,86 @@
+article {
+  --img-scale: 1.001;
+  --title-color: rgb(242, 235, 235);
+  --link-icon-translate: -20px;
+  --link-icon-opacity: 0;
+  position: relative;
+  border-radius: 16px;
+  box-shadow: none;
+  background: linear-gradient(rgb(25, 7, 225), rgb(4, 172, 138));
+  transform-origin: center;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+  justify-content: center;
+}
+
+/* basic article elements styling */
+article h2 {
+  margin: 0 0 18px 0;
+  font-family: "Arial";
+  font-size: 1.9rem;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+  transition: color 0.3s ease-out;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+article img {
+  max-width: 100%;
+  transform-origin: center;
+  transform: scale(var(--img-scale));
+  transition: transform 0.4s ease-in-out;
+}
+
+.article-body {
+  padding: 24px;
+  text-align: center;
+}
+
+/* using te has() relational pseudo selector to update our custom properties */
+article:has(:hover, :focus) {
+  --img-scale: 1.1;
+  --title-color: rgb(162, 255, 0);
+  box-shadow: rgba(255, 0, 98, 0.599) 0px 10px 36px 0px, rgba(255, 251, 0, 0.599) 0px 0px 0px 1px;
+}
+
+
+/************************ 
+Generic layout (demo looks)
+**************************/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.services {
+  margin: 0;
+  padding: 48px 0;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  min-height: 100vh;
+}
+
+.articles {
+  display: grid;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 5fr));
+  gap: 2rem;
+}
+
+.title_sec1 {
+  text-align: center;
+}
+
+.title_sec1 h1 {
+  font-size: 6vmin;
+}

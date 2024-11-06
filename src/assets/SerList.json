@@ -1,0 +1,86 @@
+[
+    {
+        "Name": "WINDOW AC",
+        "img": "WINDOW-AC-Repair.jpg",
+        "cardText": "Professional Window AC repair and maintenance services to keep your unit running efficiently throughout the season.",
+        "paragraph": "window_ac.txt"
+    },
+    {
+        "Name": "SPLIT AC",
+        "img": "AC-Repair.jpg",
+        "cardText": "Expert Split AC repair and servicing to ensure optimal cooling and performance for your home or office.",
+        "paragraph": "split_ac.txt"
+    },
+    {
+        "Name": "CASSETTE AC",
+        "img": "CASSETTE-AC-Repair.jpg",
+        "cardText": "Reliable Cassette AC repair services for seamless cooling and system longevity. Book your service today!",
+        "paragraph": "cassette_ac.txt"
+    },
+    {
+        "Name": "DUCTABLE AC",
+        "img": "DUCTABLE-AC-Repair.jpg",
+        "cardText": "Comprehensive Ductable AC repair and maintenance solutions for consistent and effective climate control.",
+        "paragraph": "ductable_ac.txt"
+    },
+    {
+        "Name": "REFRIGERATOR REPAIR",
+        "img": "REFRIGERATOR-REPAIR.jpg",
+        "cardText": "Efficient refrigerator repair services to fix cooling issues, leaks, and other problems quickly and effectively.",
+        "paragraph": "refrigerator_repair.txt"
+    },
+    {
+        "Name": "WASHING MACHINE",
+        "img": "WASHING-MACHINE-Repair.jpg",
+        "cardText": "Expert washing machine repair and maintenance to ensure smooth operation and extend the life of your appliance.",
+        "paragraph": "washing_machine.txt"
+    },
+    {
+        "Name": "RO REPAIR",
+        "img": "RO-REPAIR.jpg",
+        "cardText": "Professional RO repair services to maintain clean and safe drinking water with prompt and reliable repairs.",
+        "paragraph": "ro_repair.txt"
+    },
+    {
+        "Name": "ELECTRIC CHIMNEY",
+        "img": "ELECTRIC-CHIMNEY-Repair.jpg",
+        "cardText": "Efficient electric chimney repair and servicing to keep your kitchen smoke-free and ventilated.",
+        "paragraph": "electric_chimney.txt"
+    },
+    {
+        "Name": "MICROWAVE REPAIR",
+        "img": "MICROWAVE-REPAIR.jpg",
+        "cardText": "Reliable microwave repair services to fix heating issues, electrical problems, and more for smooth operation.",
+        "paragraph": "microwave_repair.txt"
+    },
+    {
+        "Name": "GEYSER REPAIR",
+        "img": "GEYSER-REPAIR.jpg",
+        "cardText": "Expert geyser repair and maintenance services to ensure consistent hot water supply and efficient functioning.",
+        "paragraph": "geyser_repair.txt"
+    },
+    {
+        "Name": "PLUMBER SERVICE",
+        "img": "PLUMBER-SERVICE.jpg",
+        "cardText": "Professional plumber services for all your plumbing needs, from leak repairs to installations and maintenance.",
+        "paragraph": "plumber_service.txt"
+    },
+    {
+        "Name": "LED REPAIR",
+        "img": "LED-REPAIR.jpg",
+        "cardText": "Expert LED repair services to fix screen issues, backlight problems, and more for uninterrupted viewing.",
+        "paragraph": "led_repair.txt"
+    },
+    {
+        "Name": "CARPENTER SERVICE",
+        "img": "CARPENTER-SERVICE.jpg",
+        "cardText": "Skilled carpenter services for furniture repair, custom woodworking, and general carpentry needs.",
+        "paragraph": "carpenter_service.txt"
+    },
+    {
+        "Name": "ELECTRICIAN",
+        "img": "ELECTRICIAN.jpg",
+        "cardText": "Professional electrician services for safe and reliable electrical repairs, installations, and maintenance.",
+        "paragraph": "electrician.txt"
+    }
+]

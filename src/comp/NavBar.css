@@ -1,0 +1,106 @@
+:root {
+  --shadow-color: var(--primary-color);
+}
+
+.nav-bar {
+  display: flex;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+}
+
+.nav-links a {
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.nav-links li {
+  margin: 0 30px;
+}
+
+.active {
+  color: var(--primary-color);
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em var(--primary-color);
+}
+
+.menu-button {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  width: 35px;
+  cursor: pointer;
+  display: none;
+  z-index: -1;
+}
+
+.caretBtn {
+  width: 35px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width:850px) {
+  .menu-button {
+    display: block;
+  }
+
+  .caretBtn {
+    display: block;
+  }
+
+  .nav-bar {
+    justify-content: flex-start;
+    padding: 0;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    height: 90vh;
+    width: 100%;
+    justify-content: center;
+    background: linear-gradient(#e19fff, #be31ff);
+    margin-top: -1000%;
+    transition: all 0.5s ease;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+  }
+
+  .nav-links li {
+    margin: 30px auto;
+  }
+
+  .menu-button {
+    position: absolute;
+    width: 35px;
+    cursor: pointer;
+  }
+
+  .mobile-menu {
+    margin: 0px;
+  }
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 12rem;
+  z-index: -1;
+}
+
+.nav-links .Link {
+  color: rgba(75, 67, 67, 0.829);
+  font-weight: bold;
+}

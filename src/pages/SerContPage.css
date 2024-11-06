@@ -1,0 +1,125 @@
+.singleService {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    padding-top: 60px;
+}
+
+.SingleSerHading {
+    text-align: center;
+}
+
+
+.serviceContainer {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.serviceInfo {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.serviceInfoImage img {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 14px;
+}
+
+.serviceInfoText {
+    width: 100%;
+    max-width: 700px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quickAccessServiceList {
+    flex: 1;
+    padding: 20px;
+    background-color: #fcfcfc;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    box-shadow: #cdc6c6 0px 10px 36px 0px;
+}
+
+
+.quickAccessServiceList li {
+    margin-bottom: 10px;
+}
+
+.quickAccessServiceList a {
+    color: #222325;
+}
+
+.quickAccessServiceList a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 41, 87);
+    color: rgb(50, 115, 255);
+}
+
+@media (max-width: 850px) {
+    .serviceContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quickAccessServiceList {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+.quickAccessServiceList .under-line {
+    height: 2px;
+    margin-top: 0;
+    width: 100%;
+}
+
+.ContactLink {
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(255, 41, 87);
+    border: rgb(255, 41, 87) 0.125em solid;
+    padding: 0.25em 1em;
+    border-radius: 1em;
+    transition: box-shadow 0.3s, width 0.3s;
+    white-space: nowrap;
+    width: 15rem;
+}
+
+.ContactLink span {
+    display: inline-block;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s, width 0.3s;
+    white-space: nowrap;
+}
+
+.ContactLink:hover {
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+    box-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+}
+
+.ContactLink:hover span {
+    visibility: visible;
+    opacity: 1;
+}
+
+.ContactLink:hover {
+    width: calc(15rem + 1rem);
+}

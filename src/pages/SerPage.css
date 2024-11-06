@@ -1,0 +1,22 @@
+.serHederImg {
+  width: 100vw;
+  height: 50vh;
+  object-fit: cover;
+  filter: blur(1px);
+  z-index: -1;
+}
+
+.HadingContainer {
+  margin-top: 150px;
+  color: rgba(39, 36, 36, 0.9);
+  position: absolute;
+}
+
+.HadingContainer h1 {
+  font-size: 8vmin;
+}
+
+.serHeder {
+  display: flex;
+  justify-content: center;
+}

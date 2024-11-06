@@ -1,0 +1,25 @@
+{
+    "logo": "image2vector.svg",
+    "NavLink": [
+        {
+            "to": "/",
+            "text": "HOME"
+        },
+        {
+            "to": "/services",
+            "text": "SERVICES"
+        },
+        {
+            "to": "/about-us",
+            "text": "ABOUT US"
+        }
+    ],
+    "form": "https://forms.gle/nFpZdcF1Zkuk7xeo8",
+    "menuBtn": "menuBut.svg",
+    "caretBtn": "caret-up-svgrepo-com.svg",
+    "socialmedia": [
+        {"url": "https://www.facebook.com/"},
+        {"url": "https://www.instagram.com/?hl=en"},
+        {"url": "https://x.com/?lang=en-in"}
+    ]
+}
