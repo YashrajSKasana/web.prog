@@ -20,7 +20,7 @@ function Landing() {
           <div className="image">
             <span className="image__bg" />
             <img src={`images/${landingData.headerImg}`} alt="header image" />
-            <div className="image__content image__content__1">
+            <div className="image__content image__content__1 hide_for_small_screen">
               <span>
               </span>
               <div className="details">
@@ -28,7 +28,7 @@ function Landing() {
                 <p>Active Clients</p>
               </div>
             </div>
-            <div className="image__content image__content__2">
+            <div className="image__content image__content__2 hide_for_small_screen">
               <ul>
                 <li>
                   <span>

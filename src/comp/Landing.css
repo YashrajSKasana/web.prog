@@ -123,7 +123,7 @@ header {
   color: var(--primary-color);
 }
 
-@media (width < 900px) {
+@media (max-width: 900px) {
 
   header {
     padding: 1rem;
@@ -136,5 +136,11 @@ header {
 
   .image {
     grid-area: 1/1/2/2;
+  }
+}
+
+@media (max-width: 450px) {
+  .hide_for_small_screen {
+    display: none;
   }
 }
