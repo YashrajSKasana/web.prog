@@ -1,8 +1,3 @@
-:root {
-  --text-dark: #111827;
-  --text-light: #6b7280;
-}
-
 
 body {
   font-family: "Roboto", sans-serif;
@@ -43,6 +38,7 @@ header {
 }
 
 .image {
+  margin-top: 1.3rem;
   position: relative;
   text-align: center;
   isolation: isolate;
@@ -55,7 +51,8 @@ header {
   transform: translate(-50%, -50%);
   height: 450px;
   width: 450px;
-  background-color: rgba(255, 65, 106, 0.827); 
+  opacity: 0.7;
+  background-color: var(--primary-color); 
   border-radius: 100%;
   z-index: -1;
 }
@@ -87,7 +84,7 @@ header {
   padding: 10px 12px;
   font-size: 1.5rem;
   color: var(--primary-color);
-  background-color: rgba(255, 65, 106, 0.275);
+  background-color: rgba(101, 25, 189, 0.275);
   border-radius: 100%;
 }
 

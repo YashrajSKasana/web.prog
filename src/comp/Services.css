@@ -6,14 +6,13 @@ article {
   position: relative;
   border-radius: 16px;
   box-shadow: none;
-  background: linear-gradient(rgb(25, 7, 225), rgb(4, 172, 138));
+  background: linear-gradient(rgb(4, 172, 138), var(--primary-color));
   transform-origin: center;
   transition: all 0.4s ease-in-out;
   overflow: hidden;
   justify-content: center;
 }
 
-/* basic article elements styling */
 article h2 {
   margin: 0 0 18px 0;
   font-family: "Arial";
@@ -46,13 +45,8 @@ article img {
 article:has(:hover, :focus) {
   --img-scale: 1.1;
   --title-color: rgb(162, 255, 0);
-  box-shadow: rgba(255, 0, 98, 0.599) 0px 10px 36px 0px, rgba(255, 251, 0, 0.599) 0px 0px 0px 1px;
+  box-shadow: var(--primary-color) 0px 10px 36px 0px, rgba(255, 251, 0, 0.599) 0px 0px 0px 1px;
 }
-
-
-/************************ 
-Generic layout (demo looks)
-**************************/
 
 *,
 *::before,
@@ -82,5 +76,6 @@ Generic layout (demo looks)
 }
 
 .title_sec1 h1 {
-  font-size: 6vmin;
+  color: var(--text-dark);
+  font-size: 2.8rem;
 }

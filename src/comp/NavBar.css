@@ -1,7 +1,3 @@
-:root {
-  --shadow-color: var(--primary-color);
-}
-
 .nav-bar {
   display: flex;
   z-index: 1;
@@ -64,13 +60,13 @@ ul {
     justify-content: flex-start;
     padding: 0;
   }
-
+  
   .nav-links {
     flex-direction: column;
     height: 90vh;
     width: 100%;
     justify-content: center;
-    background: linear-gradient(#e19fff, #be31ff);
+    background: linear-gradient(#18001f, #be31ff);
     margin-top: -1000%;
     transition: all 0.5s ease;
     border-bottom-left-radius: 70%;
@@ -101,6 +97,6 @@ ul {
 }
 
 .nav-links .Link {
-  color: rgba(75, 67, 67, 0.829);
+  color: var(--text-light);
   font-weight: bold;
 }

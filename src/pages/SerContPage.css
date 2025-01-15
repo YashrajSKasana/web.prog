@@ -68,7 +68,7 @@
 
 .quickAccessServiceList a:hover {
     text-decoration: underline;
-    text-decoration-color: rgb(255, 41, 87);
+    text-decoration-color: var(--primary-color);
     color: rgb(50, 115, 255);
 }
 
@@ -93,8 +93,8 @@
 .ContactLink {
     display: inline-block;
     cursor: pointer;
-    color: rgb(255, 41, 87);
-    border: rgb(255, 41, 87) 0.125em solid;
+    color: var(--primary-color);
+    border: var(--primary-color) 0.125em solid;
     padding: 0.25em 1em;
     border-radius: 1em;
     transition: box-shadow 0.3s, width 0.3s;

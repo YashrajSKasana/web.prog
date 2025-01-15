@@ -5,7 +5,7 @@ import serList from "../assets/SerList.json";
 import navInfo from "../assets/NavInfo.json";
 import companyInfo from "../assets/companyInfo.json";
 import { SocialIcon } from "react-social-icons";
-
+import { useState } from "react";
 function SerLinks({ Ser }) {
   return (
     <li>
@@ -40,6 +40,10 @@ function Footer() {
     return { ...SocialLink, id: crypto.randomUUID() };
   });
   // console.log(SocialLinkData)
+  const [click, setClick] = useState(true);
+  const whenClicked = () => {
+    setClick(!click);
+  };
   return (
     <footer>
       <div className="und-lin-cont">
@@ -51,14 +55,6 @@ function Footer() {
           <ul>
             {SocialLinkData.map((SocialLinkItem) => (
               <SocialLink key={SocialLinkItem.id} SocialLinks={SocialLinkItem} />
-            ))}
-          </ul>
-        </div>
-        <div className="ServicesCol">
-          <h3>Services</h3>
-          <ul>
-            {serData.map((Ser) => (
-              <SerLinks key={Ser.id} Ser={Ser} />
             ))}
           </ul>
         </div>
